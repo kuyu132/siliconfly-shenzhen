@@ -1,0 +1,29 @@
+# Local environments and Python caches
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Device credentials and local configuration
+.env
+.env.*
+!.env.example
+device.json
+device.*.json
+*.pem
+*.key
+.state/
+
+# Board outputs, downloaded models and observations
+runtime/
+bin/
+models/
+*.log
+
+# Editor / operating system files
+.DS_Store
+.idea/
+.vscode/
+.playwright-mcp/

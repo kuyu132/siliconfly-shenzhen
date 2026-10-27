@@ -1,0 +1,3 @@
+# Runtime dependencies are RISC-V native packages copied by board_setup.py.
+# Standard-library HTTP, weather, orchestration. C++17 neural engine.
+# OpenCV + numpy + spacemit_vision + SpaceMIT ONNX Runtime for K3 camera.

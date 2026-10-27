@@ -1,0 +1,21 @@
+{
+  "reference_gateway_version": "0.2.0",
+  "reference_gateway_commit": "47681187722d7ebdfa7923739827e1c0aaf9f727",
+  "catalog_is_allowlist": false,
+  "context_tokens": 4096,
+  "max_output_tokens": 256,
+  "models": [
+    {"domain":"llm","id":"qwen3-0.6b-q4_0","purpose":"短对话、改写、文案；仅讲师聊天演示默认","required":false,"verified_16gb":false},
+    {"domain":"llm","id":"qwen3.5-2b-q4_0","purpose":"质量优先的文本处理","required":false,"verified_16gb":false},
+    {"domain":"asr","id":"sensevoice","purpose":"短音频转文字","required":false,"verified_16gb":false},
+    {"domain":"vision","id":"yolov8n","purpose":"图片对象检测","required":false,"verified_16gb":false},
+    {"domain":"vlm","id":"Qwen3.5-0.8B","purpose":"图片描述与问答","required":false,"verified_16gb":false},
+    {"domain":"embed","id":"bge-small-zh-v1.5-q4_k_m","purpose":"中文语义检索","required":false,"verified_16gb":false},
+    {"domain":"tts","id":"matcha_zh_en","purpose":"文字合成语音","required":false,"verified_16gb":false},
+    {"domain":"vad","id":"silero","purpose":"语音活动边界；并非ASR识别文字","required":false,"verified_16gb":false},
+    {"domain":"vision","id":"yolov5-face","purpose":"人脸检测，不直接提供人物姓名","required":false,"verified_16gb":false},
+    {"domain":"vision","id":"arcface","purpose":"人脸特征；身份聚类、命名与计数由应用负责","required":false,"verified_16gb":false},
+    {"domain":"vision","id":"yolov8n-pose","purpose":"人体关键点，不等于物体检测或完整行为理解","required":false,"verified_16gb":false},
+    {"domain":"vision","id":"yolov8n-seg","purpose":"实例分割；显示结果的像素坐标应与原图对应","required":false,"verified_16gb":false}
+  ]
+}

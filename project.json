@@ -1,0 +1,1 @@
+{"port":8330,"command":["{python}","app.py"],"health_path":"/healthz"}
